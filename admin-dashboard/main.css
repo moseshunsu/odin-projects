@@ -1,0 +1,145 @@
+main {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  background-color: #e2e8f0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  grid-column-gap: 1rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2rem repeat(3, 9.5rem);
+  grid-gap: 1rem;
+}
+
+.projects-container > h4 {
+  grid-column-end: span 2;
+}
+
+.project-container {
+  padding: 1rem;
+  background-color: #fff;
+  border-left: 0.4rem solid #f0b429;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-container h5 {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.project-container .project-description {
+  margin: 0;
+  font-size: small;
+}
+
+.project-icons {
+  align-self: flex-end;
+  width: 7rem;
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-left: 1rem; */
+}
+
+/* .project-icons > div {
+  display: inline-block;
+} */
+
+.project-icons svg {
+  height: 1rem;
+}
+
+.announcements-trendings-container {
+  display: grid;
+}
+
+.announcements-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 13rem;
+  height: 15rem;
+  background-color: #fff;
+  padding: 1.3rem 1.4rem;
+  border-radius: 8px;
+}
+
+.announcements-trendings-container h4 {
+  margin-bottom: 0.5rem;
+}
+
+.announcement-container {
+  background: #fff;
+}
+
+.announcement-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.announcement-description {
+  font-size: x-small;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+hr {
+  margin: 0;
+}
+
+.trending {
+  margin: 0;
+}
+
+.trendings-container {
+  background-color: #fff;
+  padding: 1.3rem 1.4rem;
+  width: 13rem;
+  height: 13rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.trending-container a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.trending-icon {
+  padding: 0.3rem;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+}
+
+.tegan-icon {
+  background-color: #e0f2fe;
+}
+
+.morgan-icon {
+  background-color: #facc15;
+}
+
+.hendall-icon {
+  background-color: #a3a3a3;
+}
+
+.alex-icon {
+  background-color: #fda4af;
+}
+
+.trending-description {
+  font-size: x-small;
+}
+
+.trending-handle {
+  font-weight: bold;
+}
